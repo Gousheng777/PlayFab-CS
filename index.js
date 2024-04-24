@@ -2,7 +2,7 @@ handlers.makeAPICall = function (args, context) {
     var request = {
         PlayFabId: currentPlayerId, Statistics: [{
                 StatisticName: "Level",
-                Value: 1
+                Value: 10
             }]
     };
     // The pre-defined "server" object has functions corresponding to each PlayFab server API 
